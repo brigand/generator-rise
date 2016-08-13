@@ -5,7 +5,7 @@ const camel = require("camelcase")
 const normalize = require("normalize-url")
 const humanize = require("humanize-url");
 
-module.exports = Yeoman.generators.Base.extend({
+module.exports = Yeoman.Base.extend({
   init: function () {
     const done = this.async()
 
