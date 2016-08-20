@@ -10,7 +10,9 @@ helpers.run(join(__dirname, "../app"))
     assert.file([
       "package.json",
       "src/index.js",
+      "src/app.js",
       "test/index.js",
+      "test/app.js",
       "LICENSE",
       "README.md",
       "CHANGELOG.md",

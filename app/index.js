@@ -72,6 +72,8 @@ module.exports = Yeoman.Base.extend({
         this.template("CHANGELOG.md")
         this.template("index.js",      "src/index.js")
         this.template("test.js",       "test/index.js")
+        this.template("app-test.js",   "test/" + this.camelModuleName + ".js")
+        this.template("app.js",        "src/" + this.camelModuleName + ".js")
         this.template("editorconfig",  ".editorconfig")
         this.template("gitignore",     ".gitignore")
         this.template("eslintrc",      ".eslintrc")
